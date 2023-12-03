@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    ~ Copyright 2022 The TensorFlow Authors. All Rights Reserved.
+4    ~
+5    ~ Licensed under the Apache License, Version 2.0 (the "License");
+6    ~ you may not use this file except in compliance with the License.
+7    ~ You may obtain a copy of the License at
+8    ~
+9    ~       http://www.apache.org/licenses/LICENSE-2.0
+10    ~
+11    ~ Unless required by applicable law or agreed to in writing, software
+12    ~ distributed under the License is distributed on an "AS IS" BASIS,
+13    ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14    ~ See the License for the specific language governing permissions and
+15    ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    xmlns:dist="http://schemas.android.com/apk/distribution"
+19    package="com.google.mediapipe.examples.gesturerecognizer"
+20    android:versionCode="1"
+21    android:versionName="1.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="24"
+24-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="32" />
+25-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml
+26
+27    <!-- Enable instant app support -->
+28    <dist:module dist:instant="true" />
+28-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:22:5-40
+28-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:22:18-37
+29
+30    <!-- Declare features -->
+31    <uses-feature android:name="android.hardware.camera" />
+31-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:25:5-60
+31-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:25:19-57
+32
+33    <!-- Declare permissions -->
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:28:5-65
+34-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:28:22-62
+35
+36    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+37    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
+38-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:25:22-76
+39    <uses-permission android:name="android.permission.INTERNET" />
+39-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
+39-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:26:22-64
+40
+41    <application
+41-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:30:5-54:19
+42        android:allowBackup="true"
+42-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:31:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.8.0] C:\Users\Reah\.gradle\caches\transforms-3\4cfad44e0d00a3cc285bd7f075242743\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:32:9-43
+47        android:label="@string/app_name"
+47-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:33:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:34:9-54
+49        android:supportsRtl="true"
+49-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:35:9-35
+50        android:taskAffinity=""
+50-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:36:9-32
+51        android:testOnly="true"
+52        android:theme="@style/Theme.GestureRecognizer" >
+52-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:37:9-55
+53        <activity
+53-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:40:9-53:20
+54            android:name="com.google.mediapipe.examples.gesturerecognizer.MainActivity"
+54-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:41:13-41
+55            android:exported="true" >
+55-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:42:13-36
+56            <intent-filter>
+56-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:43:13-47:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:44:17-69
+57-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:44:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:46:17-77
+59-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:46:27-74
+60            </intent-filter>
+61
+62            <!-- Declare notch support -->
+63            <meta-data
+63-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:50:13-52:40
+64                android:name="android.notch_support"
+64-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:51:17-53
+65                android:value="true" />
+65-->C:\Users\Reah\Downloads\app_gesture\app\src\main\AndroidManifest.xml:52:17-37
+66        </activity>
+67
+68        <uses-library
+68-->[androidx.window:window:1.1.0-alpha03] C:\Users\Reah\.gradle\caches\transforms-3\81e62e3982014a2fb8ba945da4d0e071\transformed\window-1.1.0-alpha03\AndroidManifest.xml:23:9-25:40
+69            android:name="androidx.window.extensions"
+69-->[androidx.window:window:1.1.0-alpha03] C:\Users\Reah\.gradle\caches\transforms-3\81e62e3982014a2fb8ba945da4d0e071\transformed\window-1.1.0-alpha03\AndroidManifest.xml:24:13-54
+70            android:required="false" />
+70-->[androidx.window:window:1.1.0-alpha03] C:\Users\Reah\.gradle\caches\transforms-3\81e62e3982014a2fb8ba945da4d0e071\transformed\window-1.1.0-alpha03\AndroidManifest.xml:25:13-37
+71        <uses-library
+71-->[androidx.window:window:1.1.0-alpha03] C:\Users\Reah\.gradle\caches\transforms-3\81e62e3982014a2fb8ba945da4d0e071\transformed\window-1.1.0-alpha03\AndroidManifest.xml:26:9-28:40
+72            android:name="androidx.window.sidecar"
+72-->[androidx.window:window:1.1.0-alpha03] C:\Users\Reah\.gradle\caches\transforms-3\81e62e3982014a2fb8ba945da4d0e071\transformed\window-1.1.0-alpha03\AndroidManifest.xml:27:13-51
+73            android:required="false" />
+73-->[androidx.window:window:1.1.0-alpha03] C:\Users\Reah\.gradle\caches\transforms-3\81e62e3982014a2fb8ba945da4d0e071\transformed\window-1.1.0-alpha03\AndroidManifest.xml:28:13-37
+74
+75        <service
+75-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:25:9-34:19
+76            android:name="androidx.camera.core.impl.MetadataHolderService"
+76-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:26:13-75
+77            android:enabled="false"
+77-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:27:13-36
+78            android:exported="false" >
+78-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:28:13-37
+79            <meta-data
+79-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:31:13-33:89
+80                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+80-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:32:17-103
+81                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+81-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\Reah\.gradle\caches\transforms-3\931a8d30f1620c73b309ab2225152207\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:33:17-86
+82        </service>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.google.mediapipe.examples.gesturerecognizer.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Reah\.gradle\caches\transforms-3\f852aa2168bd75ea111384b2a33b650d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Reah\.gradle\caches\transforms-3\16985bad39e807345e563e3e739e72f8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Reah\.gradle\caches\transforms-3\16985bad39e807345e563e3e739e72f8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Reah\.gradle\caches\transforms-3\16985bad39e807345e563e3e739e72f8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+94        </provider>
+95
+96        <service
+96-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+97            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+97-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+98            android:exported="false" >
+98-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+99            <meta-data
+99-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+100                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+100-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+101                android:value="cct" />
+101-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\43ed0b913ffba57199accebd2397ff2d\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+102        </service>
+103        <service
+103-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+104            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+104-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+105            android:exported="false"
+105-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+106            android:permission="android.permission.BIND_JOB_SERVICE" >
+106-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+107        </service>
+108
+109        <receiver
+109-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+110            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+110-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+111            android:exported="false" />
+111-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Reah\.gradle\caches\transforms-3\8fab84edc6624ff3b59816f54b7bbb5d\transformed\transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+112    </application>
+113
+114</manifest>

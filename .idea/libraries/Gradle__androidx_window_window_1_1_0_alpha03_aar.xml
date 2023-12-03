@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.window:window:1.1.0-alpha03@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81e62e3982014a2fb8ba945da4d0e071/transformed/window-1.1.0-alpha03/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/81e62e3982014a2fb8ba945da4d0e071/transformed/window-1.1.0-alpha03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81e62e3982014a2fb8ba945da4d0e071/transformed/window-1.1.0-alpha03/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.window/window/1.1.0-alpha03/d6da83badaaeb103afcdd17aab0aec531c6c0a02/window-1.1.0-alpha03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
